@@ -1,0 +1,134 @@
+.home-wrapper {
+  padding: 40px 20px;
+  background: #f4fff0;
+}
+
+/* Heading */
+.home-heading {
+  text-align: center;
+  color: #2e7d32;
+  margin-bottom: 40px;
+}
+
+/* Action circles */
+.action-circles {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-bottom: 50px;
+  flex-wrap: wrap;
+}
+
+.action-circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  background: white;
+  text-align: center;
+  padding-top: 40px;
+  cursor: pointer;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.action-circle:hover {
+  transform: scale(1.05);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.25);
+}
+
+.action-circle p {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 10px 0 5px;
+}
+
+.action-circle span {
+  font-size: 14px;
+  color: grey;
+}
+
+/* Circle variants */
+.sell {
+  border: 5px solid #2e7d32;
+}
+
+.browse {
+  border: 5px solid #4caf50;
+}
+
+/* Sections */
+.section {
+  margin-top: 40px;
+}
+
+.section h3 {
+  color: #2e7d32;
+  margin-bottom: 15px;
+}
+
+/* Crop cards */
+.cards {
+  display: flex;
+  gap: 20px;
+  overflow-x: auto;
+  padding-bottom: 10px;
+}
+
+.card {
+  min-width: 200px;
+  background: white;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+/* Crop image */
+.crop-img {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+/* Time / expiry info */
+.time-info {
+  font-size: 13px;
+  color: #d32f2f;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+/* Mobile friendly */
+@media (max-width: 600px) {
+  .action-circle {
+    width: 160px;
+    height: 160px;
+    padding-top: 30px;
+  }
+
+  .action-circle p {
+    font-size: 16px;
+  }
+
+  .cards {
+    gap: 15px;
+  }
+}
+.swap-float-btn {
+  position: fixed;
+  bottom: 90px;
+  right: 20px;
+  background: #ff9800;
+  color: white;
+  padding: 14px 18px;
+  border-radius: 50%;
+  font-size: 20px;
+  cursor: pointer;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}

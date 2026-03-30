@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #c8e6c9;
+  padding: 12px 30px;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+  color: #2e7d32;
+}
+
+.nav a {
+  margin-right: 15px;
+  text-decoration: none;
+  color: #2e7d32;
+  font-weight: 500;
+}
+
+.logout-btn {
+  background: #2e7d32;
+  color: white;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}

@@ -1,0 +1,45 @@
+.messages-wrapper {
+  padding: 30px;
+}
+
+.chat-list {
+  margin-top: 20px;
+}
+
+.chat-card {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  border: 1px solid #eee;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.chat-card:hover {
+  background-color: #f5f5f5;
+}
+
+.chat-avatar {
+  width: 40px;
+  height: 40px;
+  background: #4caf50;
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 15px;
+  font-weight: bold;
+}
+
+.chat-info h4 {
+  margin: 0;
+}
+
+.chat-info p {
+  margin: 2px 0 0 0;
+  font-size: 14px;
+  color: gray;
+}
